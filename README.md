@@ -62,7 +62,7 @@ cd muilti-currency-wallet
 # Запуск приложения
 ./gradlew bootRun
 
-REST API Endpoints
+# REST API Endpoints
 
 GET /api/wallets/user/{userId} — Получение списка счетов пользователя
 
