@@ -63,13 +63,21 @@ cd muilti-currency-wallet
 ./gradlew bootRun
 
 REST API Endpoints
+
 GET /api/wallets/user/{userId} — Получение списка счетов пользователя
+
 POST /api/wallets?userId={id}&currency={code} — Открытие нового счета
+
 POST /api/wallets/{id}/deposit?amount={sum} — Пополнение счета
+
 POST /api/wallets/transfer — Перевод между счетами
+
 POST /api/wallets/convert — Конвертация валют
+
 GET /api/transactions/wallet/{walletId} — История операций по счету
+
 GET /api/transactions/wallet/{walletId}/export — Выгрузка выписки в CSV
+
 GET /api/ai/advice/{userId} — Запрос ответа ИИ-советника
 
 Автор 
