@@ -42,7 +42,7 @@
 1. Скачайте и установите Ollama (https://ollama.com/).
 2. Запустите модель llama3 в консоли:
    ```bash
-  ollama run llama3
+   ollama run llama3
   
 ###  3. Настройка базы данных
 spring.datasource.url=jdbc:postgresql://localhost:5432/wallet_db
